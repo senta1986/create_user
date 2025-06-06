@@ -1,3 +1,6 @@
 ---
 - name: john
   job: Developer
+
+- name: suji
+  job: student
