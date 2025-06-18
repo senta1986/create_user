@@ -1,6 +1,0 @@
----
-- name: Create user 
-  hosts: dev 
-  tasks:
-    - name: create user john
-      ansible.builtin.user:
