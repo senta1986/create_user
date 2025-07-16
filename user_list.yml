@@ -4,3 +4,6 @@
   tasks:
     - name: create user john
       ansible.builtin.user:
+        name: john
+        comment: developer
+        state: present
